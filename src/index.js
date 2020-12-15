@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-function Hi(){
-  return <p>Hello darkness my old friend</p>;
+function HelloWorld(){
+  return <p>Hello world!</p>;
 }
 
-render(<Hi />, document.getElementById(`app`));
+render(<HelloWorld />, document.getElementById(`app`));

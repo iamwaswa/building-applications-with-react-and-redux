@@ -55,8 +55,9 @@ module.exports = {
         test: /\.(js|jsx)$/,
         // Files to ignore
         exclude: /node_modules/,
+        // Run linting through these files
         // Run babel through these files and webpack will bundle the files into one bundle
-        use: [`babel-loader`]
+        use: [`babel-loader`, `eslint-loader`]
       },
       // CSS Files
       {
